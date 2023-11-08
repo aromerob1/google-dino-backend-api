@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("MyAllowSpecificOrigins",
                       policyBuilder =>
                       {
-                          policyBuilder.WithOrigins("http://127.0.0.1:5500", "https://your-frontend-domain.com")
+                          policyBuilder.WithOrigins("http://127.0.0.1:5500", "https://aromerob1.github.io")
                                        .AllowAnyHeader()
                                        .AllowAnyMethod();
                       });
